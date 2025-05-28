@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="preload" href="CSS/normalize.css" />
+    <link rel="preload" href="CSS/styles.css" as="style" />
+    <link rel="stylesheet" href="CSS/styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="CSS/styles.css" />
-    <link rel="preload" href="CSS/styles.css" as="style" />
     <title>Sobre mí - ISC Tania Lizeth Cardona Sánchez</title>
 </head>
 
@@ -28,77 +27,72 @@
     </div>
 
     <main class="contenedor sombra">
-        <section>
-            <div class="sobre-mi">
-                <img src="img/fotoperfil.jpeg" alt="Foto de perfil" class="foto-perfil">
-                <h2>ISC. Tania Lizeth Cardona Sánchez</h2>
-                <h3><i class="fa-solid fa-graduation-cap"></i> Estudiante de la Universidad Politécnica de
-                    Aguascalientes</h3>
-                <p class="descripcion">
-                    Soy una persona confiada, que aprende rápido y que a pesar de todo, siempre encuentra la manera de
-                    solucionar los problemas. Soy creativa y responsable, cumplo con todos mis deberes y considero que
-                    soy apta para cualquier tipo de trabajo.
-                </p>
-                <div class="tarjetas-info">
-                    <div class="tarjeta">
-                        <h4><i class="fa-solid fa-language"></i> Idiomas</h4>
-                        <ul>
-                            <li>Inglés Intermedio B1-B2</li>
-                        </ul>
-                    </div>
-                    <div class="tarjeta">
-                        <h4><i class="fa-solid fa-certificate"></i> Conocimientos y Certificados</h4>
-                        <ul>
-                            <li>Conocimiento en el manejo de Office</li>
-                            <li>Manejo de equipos de cómputo</li>
-                            <li>Lenguajes de programación (Java, C++, etc.)</li>
-                            <li>HTML y CSS</li>
-                            <li>Certificado en Packet Tracer por CISCO</li>
-                            <li>Certificado en Get Connected por CISCO</li>
-                            <li>Administración de Base de Datos</li>
-                            <li>Redes</li>
-                            <li>Herramientas: VS Code, Pro, React, GitHub</li>
-                        </ul>
-                    </div>
-                    <div class="tarjeta">
-                        <h4><i class="fa-solid fa-school"></i> Educación</h4>
-                        <ul>
-                            <li>Universidad Politécnica de Aguascalientes (2022 - Actualidad)</li>
-                            <li>Centro de Educación Media - UAA Bachillerato Oriente (2019 - 2022)</li>
-                            <li>Escuela Secundaria Técnica No. 20 (2016 - 2019)</li>
-                        </ul>
-                    </div>
-                    <div class="tarjeta">
-                        <h4><i class="fa-solid fa-people-group"></i> Habilidades Blandas</h4>
-                        <ul>
-                            <li>Trabajo en equipo</li>
-                            <li>Resolución de problemas</li>
-                            <li>Creatividad</li>
-                            <li>Trabajo bajo presión</li>
-                            <li>Proactiva</li>
-                            <li>Comunicación asertiva</li>
-                            <li>Adaptabilidad</li>
-                        </ul>
-                    </div>
-                    <div class="tarjeta">
-                        <h4><i class="fa-solid fa-gears"></i> Habilidades Duras</h4>
-                        <ul>
-                            <li>Programación en Java y C++</li>
-                            <li>HTML y CSS</li>
-                            <li>Administración de bases de datos</li>
-                            <li>Manejo de redes</li>
-                            <li>Uso de herramientas: VS Code, React, GitHub</li>
-                            <li>Manejo de Office</li>
-                        </ul>
-                    </div>
+        <section class="sobre-mi">
+            <img src="img/fotoperfil.jpeg" alt="Foto de perfil" class="foto-perfil">
+            <h2>ISC. Tania Lizeth Cardona Sánchez</h2>
+            <h3><i class="fa-solid fa-graduation-cap"></i> Estudiante de la Universidad Politécnica de Aguascalientes
+            </h3>
+            <p class="texto-negro">
+                Soy una persona confiada, que aprende rápido y que siempre encuentra la manera de solucionar problemas.
+                Soy creativa, responsable, cumplo con mis deberes y me considero apta para diversos tipos de trabajo.
+            </p>
+
+            <div class="tarjetas-info">
+                <div class="tarjeta">
+                    <h4><i class="fa-solid fa-certificate"></i> Conocimientos y Certificados</h4>
+                    <ul>
+                        <li>Manejo de Office</li>
+                        <li>Manejo de equipos de cómputo</li>
+                        <li>Lenguajes de programación: Java, C++</li>
+                        <li>HTML y CSS</li>
+                        <li>Certificados de CISCO: Packet Tracer, Get Connected</li>
+                        <li>Administración de Base de Datos</li>
+                        <li>Redes</li>
+                        <li>Herramientas: VS Code, React, GitHub</li>
+                    </ul>
+                </div>
+                <div class="tarjeta">
+                    <h4><i class="fa-solid fa-school"></i> Educación</h4>
+                    <ul>
+                        <li>Universidad Politécnica de Aguascalientes (2022 - Actualidad)</li>
+                        <li>Centro de Educación Media - UAA Bachillerato Oriente (2019 - 2022)</li>
+                        <li>Escuela Secundaria Técnica No. 20 (2016 - 2019)</li>
+                        <li>Curso Patrones Hermosos Universidad Panamericana (2016 - 2017)</li>
+                    </ul>
+                    <h4 style="margin-top:1.5rem;"><i class="fa-solid fa-language"></i> Idiomas</h4>
+                    <ul>
+                        <li>Inglés Intermedio B1-B2</li>
+                    </ul>
+                </div>
+                <div class="tarjeta">
+                    <h4><i class="fa-solid fa-people-group"></i> Habilidades Blandas</h4>
+                    <ul>
+                        <li>Trabajo en equipo</li>
+                        <li>Resolución de problemas</li>
+                        <li>Creatividad</li>
+                        <li>Trabajo bajo presión</li>
+                        <li>Proactiva</li>
+                        <li>Comunicación asertiva</li>
+                        <li>Adaptabilidad</li>
+                    </ul>
+                </div>
+                <div class="tarjeta">
+                    <h4><i class="fa-solid fa-gears"></i> Habilidades Duras</h4>
+                    <ul>
+                        <li>Programación en Java y C++</li>
+                        <li>HTML y CSS</li>
+                        <li>Administración de bases de datos</li>
+                        <li>Manejo de redes</li>
+                        <li>Uso de herramientas: VS Code, React, GitHub</li>
+                        <li>Manejo de Office</li>
+                    </ul>
                 </div>
             </div>
         </section>
     </main>
 
-
     <footer class="footer">
-        <p>Todos los derechos reservados ISC. Tania Cardona</p>
+        <p>Todos los derechos reservados &copy; ISC. Tania Cardona</p>
     </footer>
 </body>
 
